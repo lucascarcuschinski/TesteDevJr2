@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lobster+Two:ital@1&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+ul {
+    list-style: none;
+}
+.container {
+    display: flex;
+}
+
+.lateral-menu {
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.lateral-menu ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.content {
+    background: rgb(133, 149, 233);
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(234, 223, 223);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 25);
+    border-radius: 16px;
+    margin: 0 20px;
+    height: 140px;
+    width: 230px;
+    object-fit: contain;
+}
+
+
+.card-content{
+    display: flex;
+    margin: 1px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cardsprin {
+    display: flex;
+}
+
+.cards-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-info h2 {
+    font-size: 54px;
+    font-weight: bold;
+    color: chocolate;
+    margin-right: 30px;
+}
+
+.card-info p {
+    font-size: 16px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    background-color: #fff;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.allinfos {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 0 20px;
+    height: 200px;
+    width: 230px;
+    object-fit: contain;
+
+}
+
+.infos {
+    
+    background: rgb(97, 144, 185);
+    display: flexbox;
+    border-radius: 16px;
+    padding: 20px;
+    align-items: stretch;
+    object-fit: contain;
+
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+
+
+}
+
+
+.infos p {
+    font-size: 1px;
+}
+
+.infos h2 {
+    font-size: 15px;
+    margin: 2px;
+    align-items: center;
+    padding: 1px;
+}
+
+.button {
+    display: flex;
+}
+
+
+
+.infos2 {
+    background: rgb(97, 144, 185);
+    display: flexbox;
+    border-radius: 16px;
+    padding: 20px;
+    align-items: stretch;
+
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+
+
+}
+
+.infos2 h2 {
+    font-size: 15px;
+    margin: 2px;
+    align-items: center;
+    padding: 1px;
+}
+
+.infos2 p {
+    font-size: 1px;
+}
+
+.info-content {
+    display: block;
+    margin: 1px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
