@@ -19,7 +19,7 @@ ul {
     color: white;
     width: 250px;
     height: 100vh;
-    padding: 20px;
+    padding: 50px;
 
     font-size: 16px;
 
@@ -33,7 +33,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 30px;
 }
 
 .content {
@@ -99,12 +99,12 @@ ul {
 
 .allinfos {
     display: flex;
-    justify-content: flex-start;
     padding: 20px;
     margin: 0 20px;
     height: 200px;
-    width: 230px;
+    width: 100vh;
     object-fit: contain;
+    justify-content: center;
 
 }
 
@@ -127,21 +127,12 @@ ul {
 }
 
 
-.infos p {
-    font-size: 1px;
-}
-
 .infos h2 {
     font-size: 15px;
     margin: 2px;
     align-items: center;
     padding: 1px;
 }
-
-.button {
-    display: flex;
-}
-
 
 
 .infos2 {
@@ -159,23 +150,9 @@ ul {
 
 
 }
-
 .infos2 h2 {
     font-size: 15px;
     margin: 2px;
     align-items: center;
     padding: 1px;
-}
-
-.infos2 p {
-    font-size: 1px;
-}
-
-.info-content {
-    display: block;
-    margin: 1px;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 100%;
 }
